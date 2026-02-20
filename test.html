@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create an Account</title>
+</head>
+<body>
+<header>
+    <h1>Create an Account</h1>
+</header>
+
+<form action="https://www.ospreys.biz/cgi-bin/project1.py" method="POST"> 
+
+    <!-- Text Fields -->
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname"><br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <!-- Password Fields -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br>
+
+    <label for="password2">Confirm Password:</label>
+    <input type="password" id="password2" name="password2"><br>
+
+    <!-- Date Field -->
+    <label for="dateofbirth">Birth Date:</label>
+    <input type="date" id="dateofbirth" name="dateofbirth"
+           min="1970-01-01" max="2025-12-31" value="2000-10-21"><br>
+
+    <!-- Radio Buttons: Major -->
+    <input type="radio" id="cs" name="major" value="cs">
+    <label for="cs">Computer Science 
+        <a href="https://www.unf.edu/ccec/computing/computer-science-program.html" target="_blank" rel="noopener">website</a>
+    </label><br>
+
+    <input type="radio" id="is" name="major" value="is">
+    <label for="is">Information Science 
+        <a href="https://www.unf.edu/ccec/computing/information-science-program.html" target="_blank" rel="noopener">website</a>
+    </label><br>
+
+    <input type="radio" id="isys" name="major" value="isys">
+    <label for="isys">Information Systems 
+        <a href="https://www.unf.edu/ccec/computing/information-systems-program.html" target="_blank" rel="noopener">website</a>
+    </label><br>
+
+    <input type="radio" id="it" name="major" value="it">
+    <label for="it">Information Technology 
+        <a href="https://www.unf.edu/ccec/computing/information-technology-program.html" target="_blank" rel="noopener">website</a>
+    </label><br>
+
+    <!-- Checkboxes: Programming Language Experience -->
+    <table>
+        <tr>
+            <td>
+                <input type="checkbox" id="lang-c" name="lang-c" value="c">
+                <label for="lang-c">C</label>
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noopener">Wikipedia-C</a>
+            </td>
+            <td>
+                <input type="checkbox" id="lang-csharp" name="lang-csharp" value="csharp">
+                <label for="lang-csharp">C#</label>
+                <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank" rel="noopener">Wikipedia-C#</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="lang-java" name="lang-java" value="java">
+                <label for="lang-java">Java</label>
+                <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" rel="noopener">Wikipedia-Java</a>
+            </td>
+            <td>
+                <input type="checkbox" id="lang-javascript" name="lang-javascript" value="javascript">
+                <label for="lang-javascript">JavaScript</label>
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener">Wikipedia-JavaScript</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="lang-php" name="lang-php" value="php">
+                <label for="lang-php">PHP</label>
+                <a href="https://en.wikipedia.org/wiki/PHP" target="_blank" rel="noopener">Wikipedia-PHP</a>
+            </td>
+            <td>
+                <input type="checkbox" id="lang-python" name="lang-python" value="python">
+                <label for="lang-python">Python</label>
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" rel="noopener">Wikipedia-Python</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="lang-vb" name="lang-vb" value="vb">
+                <label for="lang-vb">Visual Basic</label>
+                <a href="https://en.wikipedia.org/wiki/Visual_Basic_(classic)" target="_blank" rel="noopener">Wikipedia-Visual Basic</a>
+            </td>
+            <td>
+                <input type="checkbox" id="lang-other" name="lang-other" value="other">
+                <label for="lang-other">Other</label>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Buttons -->
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+    <!-- Hidden inputs -->
+    <input type="hidden" name="username" value="n01614735" />
+    <input type="hidden" name="to_email_address" value="aidanodell2066@gmail.com" />
+    <input type="hidden" name="to_display_name" value="Aidan O'Dell" />
+
+</form>
+
+<footer>
+    <h2>Other Links</h2>
+    <a href="personal.html">Personal page</a><br>
+    <a href="index.html">ePortfolio</a>
+</footer>
+</body>
+</html>

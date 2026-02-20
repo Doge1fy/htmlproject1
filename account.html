@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<body>
+<header>
+<h1>Create an Account</h1>    
+</header>
+    :
+<form action="https://www.ospreys.biz/cgi-bin/project1.py" method="POST"> 
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname"><br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" name="lastname" id="lastname"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"><br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password"><br>
+
+    <label for="password2">Confirm Password:</label>
+    <input type="password" name="password2" id="password2"><br>
+
+    <label for="dateofbirth">Birth Date:</label>
+    <input type="date" name="dateofbirth" id="dateofbirth" min="1970-01-01" max="2025-12-31" value="2000-10-21"><br>
+    <!--Radio Buttons -->
+    <input type="radio" name="major" value="cs" id="cs">
+    <label for="cs">Computer Science <a href="https://www.unf.edu/ccec/computing/computer-science-program.html" target="_blank">website</a></label><br>
+
+    <input type="radio" name="major" value="is" id="is">
+    <label for="is">Information Science <a href="https://www.unf.edu/ccec/computing/information-science-program.html" target="_blank">website</a></label><br>
+
+    <input type="radio" name="major" value="isys" id="isys">
+    <label for="isys">Information Systems <a href="https://www.unf.edu/ccec/computing/information-systems-program.html" target="_blank">website</a></label><br>
+
+    <input type="radio" name="major" value="it" id="it">
+    <label for="it">Information Technology <a href="https://www.unf.edu/ccec/computing/information-technology-program.html" target="_blank">website</a></label><br>
+    <!--Check Boxes -->
+    <table>
+        <tr>
+            <td>
+                <label for="lang-c">C</label>
+                <input type="checkbox" name="lang-c" id="lang-c" value="lang-c">
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">Wikipedia-C</a>
+            </td>
+            <td>
+                <label for="lang-csharp">C#</label>
+                <input type="checkbox" name="lang-csharp" id="lang-csharp" value="lang-csharp">
+                <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">Wikipedia-C#</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lang-java">Java</label>
+                <input type="checkbox" name="lang-java" id="lang-java" value="lang-java">
+                <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Wikipedia-Java</a>
+            </td>
+            <td>
+                <label for="lang-javascript">JavaScript</label>
+                <input type="checkbox" name="lang-javascript" id="lang-javascript" value="lang-javascript">
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Wikipedia-JavaScript</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lang-php">PHP</label>
+                <input type="checkbox" name="lang-php" id="lang-php" value="lang-php">
+                <a href="https://en.wikipedia.org/wiki/PHP" target="_blank">Wikipedia-PHP</a>
+            </td>
+            <td>
+                <label for="lang-python">Python</label>
+                <input type="checkbox" name="lang-python" id="lang-python" value="lang-python">
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Wikipedia-Python</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lang-vb">Visual Basic</label>
+                <input type="checkbox" name="lang-vb" id="lang-vb" value="lang-vb">
+                <a href="https://en.wikipedia.org/wiki/Visual_Basic_(classic)" target="_blank">Wikipedia-Visual Basic</a>
+            </td>
+            <td>
+                <label for="lang-other">Other</label>
+                <input type="checkbox" name="lang-other" id="lang-other" value="lang-other">
+            </td>
+        </tr>
+
+
+    </table>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    
+    <input type="hidden" name="username" value="n01614735"/>
+    <input type="hidden" name="to_email_address" value="n01614735@gmail.com" />
+    <input type="hidden" name="to_display_name" value="Aidan ODell" />
+
+</form>
+<footer>
+<h2>Other Links</h2>
+<a href="personal.html">Personal page</a>
+<a href="index.html">ePortfolio</a>
+</footer>
+
+</body>
+</html>
