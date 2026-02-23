@@ -1,0 +1,65 @@
+
+#project1-aboutme {
+    color: red;
+}
+
+#project1-hobbies {
+    color: blue;
+}
+
+#project1-education {
+    color purple;
+}
+
+.project1-highschool {
+    font-weight: bold;
+}
+
+.project1-college {
+    font-style: italic;
+}
+
+.project1-cert {
+    text-decoration: underline;
+}
+
+.project1-hyprlink:hover {
+    font-size: 150%;
+}
+
+.project1-schedule-header {
+    text-align: center;
+    color: blue;
+}
+
+.project1-schedule-tdeven {
+    text-align: center;
+    color: green;
+}
+.project1-schedule-tdodd {
+    text-align: center;
+    color: red;
+}
+.project1-ul-holiday {
+    list-style-type: upper-alpha;
+}
+
+.project1-custom-radio {
+    accent-color: grey;
+}
+.project1-custom-radio:checked {
+    accent-color: green;
+}
+
+.project1-custom-checkbox {
+    accent-color:grey;
+}
+
+.project1-custom-checkbox:checked {
+    accent-color: blue;
+}
+#project1-eportfolio-title {
+    text-align: center;
+}
+.project1-image-links {
+}
