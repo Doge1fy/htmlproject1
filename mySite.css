@@ -2,13 +2,16 @@
 #project1-aboutme {
     color: red;
 }
-
+.project1-images {
+    max-height: 300px;
+    max-width: 300px;
+}
 #project1-hobbies {
     color: blue;
 }
 
 #project1-education {
-    color purple;
+    color: green;
 }
 
 .project1-highschool {
